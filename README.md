@@ -1,86 +1,119 @@
-# 📊 Campus Recruitment Power BI Dashboard
+# 🎓 Campus Recruitment Dashboard – Power BI
 
 ## 📌 Project Overview
-This project analyzes a campus recruitment dataset to understand placement outcomes and salary trends across student profiles. The dashboard highlights how factors such as work experience, academic scores (10th/12th/MBA), degree stream, gender, and education boards relate to placement status and compensation.
-Objective
 
-Track overall placement rate and average salary
+This project presents an interactive **Campus Recruitment Dashboard** built using Power BI to analyze student placement trends, salary distribution, and academic performance.
 
-Compare outcomes by work experience and degree stream
+The dashboard provides insights into how **education, work experience, and specialization impact placement outcomes and salary levels**.
 
-Provide quick interactive filtering for stakeholder analysis (HR/Placement cell)
+---
+
 ## 📊 Dashboard Preview
-<img width="1429" height="805" alt="Screenshot 2026-02-18 100144" src="https://github.com/user-attachments/assets/27036998-b921-44d8-8b45-465d22351bac" />
 
--Placement dataset (students) containing:
-
-Academic performance: 10th %, 12th %, MBA %
-
-Education details: 10th Board, 12th Board, Degree subjects, HSC specialization
-
-Profile: Gender, Work experience
-
-Outcome: Placement status (Placed/Not Placed), Salary
+<img width="1420" height="796" alt="Screenshot 2026-03-17 090408" src="https://github.com/user-attachments/assets/bdd1e0a9-4538-409d-8fb6-d88148cedd71" />
 
 
-## Placement Rate & Salary Analysis 
-<img width="1422" height="799" alt="Screenshot 2026-02-18 100320" src="https://github.com/user-attachments/assets/a951c07b-52a5-4d65-b599-02e8303f19e9" />
+---
 
-This dashboard analyzes campus placement outcomes and salary patterns across gender, work experience, education board, and degree stream. It enables quick comparison of placement performance and compensation differences using interactive slicers.
+## 🎯 Key Insights
 
-Key KPIs
+* 📈 Placement Rate: **68.84%**
+* 💰 Average Salary: **198.7K**
+* 🎓 Sci & Tech students receive the highest salaries (~219K)
+* 👨‍💼 Work experience significantly improves employability and salary
+* 📊 Male candidates show slightly higher salary trends
 
-Placement Rate (%): 68.84
+---
 
-Average Salary: 198.70K
+## 📊 Analysis Included
 
-Total Students: 215 (Female: 76, Male: 139)
+* Placement status analysis (Placed vs Not Placed)
+* Salary comparison by degree specialization
+* Employability test performance vs work experience
+* Academic performance (10th, 12th, MBA)
+* Gender-based salary insights
 
-Key Insights
-1) Salary by Work Experience (Big Impact)
+---
 
-No Work Experience: 165,333
+## 🛠️ Tools & Skills Used
 
-With Work Experience: 262,284
-✅ Students with work experience earn ~97K higher average salary than those without experience.
+* Power BI
+* DAX
+* Data Modeling
+* Data Cleaning
+* Data Visualization
 
-2) Salary by Gender
+---
 
-Male Avg Salary: 215,043
+## 💡 Business Use Case
 
-Female Avg Salary: 168,816
-➡️ Salary is higher for males overall (as shown in the gender salary visual).
+This dashboard helps:
 
-3) Work Experience + Gender (Detailed Salary Split)
+* Colleges improve placement strategies
+* Recruiters identify high-performing candidates
+* Students understand high-paying career paths
 
-No Experience
+---
 
-Female: 142,667
+## 🚀 Project Highlights
 
-Male: 179,402
+✔ Interactive dashboard with filters
+✔ Real-world dataset analysis
+✔ Business-focused insights
+✔ Clean data storytelling
 
-With Experience
+---
 
-Female: 233,000
 
-Male: 274,673
+# 📊 Placement Rate & Salary Analysis Dashboard
 
-✅ Work experience increases salary for both genders, but males remain higher in both groups.
+## 📌 Project Overview
 
-4) Academic Performance by 10th Board Education
+This project presents an interactive Power BI dashboard analyzing **placement rates, salary trends, and academic performance** based on student data.
 
-The “Others” board shows a higher average 10th grade compared to Central (visible in the board comparison chart).
+The dashboard helps identify key factors influencing placements and salary outcomes.
 
-5) Degree Performance by Stream (Gender-wise)
+---
 
-Degree percentage is compared across Comm & Mgmt, Sci & Tech, and Others, split by gender to highlight performance differences by stream.
-4) Academic Performance by 10th Board Education
+## 🎯 Key Insights
 
-The “Others” board shows a higher average 10th grade compared to Central (visible in the board comparison chart).
+* 📈 Placement Rate: **68.84%**
+* 💰 Average Salary: **198.7K**
+* 👨‍💼 Male candidates have slightly higher salary compared to female
+* 🎓 MBA specialization impacts salary distribution
+* 🧠 Work experience significantly increases salary
 
-5) Degree Performance by Stream (Gender-wise)
+---
 
-Degree percentage is compared across Comm & Mgmt, Sci & Tech, and Others, split by gender to highlight performance differences by stream.
+## 📊 Dashboard Preview
+
+<img width="1395" height="799" alt="Screenshot 2026-03-17 090900" src="https://github.com/user-attachments/assets/74736afe-5ffe-4893-8f1a-6c8324e7474b" />
+
+
+---
+
+---
+
+## 📈 Analysis Performed
+
+* Placement rate analysis
+* Salary comparison by gender
+* Academic performance (10th grade, MBA)
+* Work experience impact on salary
+* Degree & specialization insights
+
+---
+
+## 💡 Business Value
+
+This dashboard can help:
+
+* Colleges understand placement performance
+* Recruiters analyze candidate trends
+* Students identify high-paying domains
+
+---
+
 
 ## 🛠 Tools Used
 - Power BI
@@ -135,62 +168,38 @@ Avg MBA: 62.28
 
 ## Recommendations / Business Actions
 
-Focus support for “Not Placed” group: Identify which combinations of degree stream + academic bands are linked with low placement.
+- Improve placement rate through training programs and mock interviews  
+- Focus on skill-based education alongside academics  
+- Promote high-demand fields like Science & Technology  
+- Increase internship and industry exposure opportunities  
+- Provide employability and communication skill training  
 
-Improve placement readiness for “No work experience” students: Add internships / mock interviews / resume clinics for students without experience.
+## 💡 Business Value
 
-Degree stream salary insights: Sci & Tech shows higher average salary; create targeted training plans for other streams to improve salary outcomes.
+This dashboard provides actionable insights that help improve decision-making for educational institutions and recruiters.
 
-Segment by boards and specialization: Use slicers to evaluate if certain board backgrounds or HSC specializations need extra support.
+### 🎓 For Colleges / Universities
 
-1) Improve employability for “No Work Experience” students
+* Identify factors affecting placement rates and take corrective actions
+* Improve student training programs based on performance gaps
+* Focus on high-demand courses that lead to better salary outcomes
 
-Students with work experience earn ~97K higher average salary (262K vs 165K).
-## Action: Introduce internship/industry project requirements, apprenticeship tie-ups, and a “work-experience readiness” track for final-year students (resume + mock interviews + projects).
+### 🏢 For Recruiters
 
-2) Target salary uplift programs for low-salary segments
+* Understand candidate trends based on education, skills, and experience
+* Identify high-performing student groups for targeted hiring
+* Optimize recruitment strategies using data-driven insights
 
-The dashboard shows salary differences by gender and experience, with lower averages in some groups.
-## Action: Run targeted interventions like negotiation workshops, mentorship programs, and role-based skill training (Excel/SQL/Power BI, interview case practice) for the segments with lower salary outcomes.
+### 👨‍🎓 For Students
 
-3) Stream-based career pathways
+* Gain clarity on high-paying career paths and in-demand fields
+* Understand the importance of work experience and skill development
+* Make better academic and career decisions
 
-Degree stream impacts performance/salary patterns (Sci & Tech / Comm & Mgmt / Others).
-# Action: Create stream-specific placement roadmaps:
+### 📊 Overall Impact
 
--Sci & Tech: technical assessment + analytics/software roles
+* Improves placement success rate
+* Enhances salary outcomes
+* Supports data-driven academic and recruitment strategies
 
--Comm & Mgmt: business analyst, sales ops, finance analyst track
-
--Others: foundation upskilling + certification support (Excel/SQL + communication)
-
-4) Board-education support plans (10th Board differences)
-
-Since average 10th scores vary by board (Central vs Others), 
-academic background may influence confidence and placement readiness.
-## Action: Provide bridge courses in aptitude + communication for students from comparatively lower-scoring groups to reduce placement gaps.
-
-5) Placement cell monitoring using segmentation
-
-Use slicers (Gender, Work Experience) to monitor placement and salary patterns continuously.
-## Action: Create a monthly placement review process using this dashboard to track:
-
--placement rate change by group
-
--salary improvement by program participation
-
--internship-to-placement conversion
-
-## 🎯 Business Value
-Improves placement strategy: Quickly identifies which student segments (e.g., no work experience) need targeted support to raise placement rate.
-
-Increases salary outcomes: Highlights the strong salary lift from work experience (≈ +97K), helping institutions prioritize internships, live projects, and industry tie-ups.
-
-Enables fair & focused interventions: Reveals gaps by gender and background so the placement team can plan mentorship, skill programs, and negotiation training where needed.
-
-Saves reporting time: Replaces manual Excel reporting with an interactive single view—stakeholders can filter and answer questions instantly.
-
-Supports data-driven planning: Helps allocate training budgets and campus drives based on evidence (stream-wise performance and salary patterns).
-
-Strengthens institutional KPIs: Better placement outcomes and higher salary packages improve college ranking, student satisfaction, and employer relationships.
 
